@@ -13,9 +13,9 @@ func pgcd(a, b int) int {
 func main() {
 	var x, y int
 
-	fmt.Print("first : ")
+	fmt.Print("le premier chiffres ou nombres est : ")
 	fmt.Scan(&x)
-	fmt.Print("second : ")
+	fmt.Print("le deuxième chiffres ou nombres est : ")
 	fmt.Scan(&y)
 
 	fmt.Printf(" le plus grand diviseur commun de %d et %d est %d\n", x, y, pgcd(x, y))
